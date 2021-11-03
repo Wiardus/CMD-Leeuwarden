@@ -1,6 +1,7 @@
 import {App} from './App';
 
 
+<<<<<<< HEAD
 'use strict';
 
 
@@ -26,3 +27,7 @@ class LikeButton extends React.Component {
 }
 const domContainer = document.querySelector('#react_container');
 ReactDOM.render(e(LikeButton, <App />), domContainer);
+=======
+
+ReactDOM.render(<App />, document.getElementById('root'))
+>>>>>>> main
